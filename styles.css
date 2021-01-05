@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-color: #00072D;
+    color: white;
+    font-size: 1.2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cabin', sans-serif;
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: #0A2472;
+    font-family: 'Open Sans', sans-serif;
+	border-radius:28px;
+	border:1px solid white;
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+button:hover{
+    background-color:#A6E1FA;
+    color: #00072D;}
+
+#header{
+    text-align: center;
+}
+.countries{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.countries div{
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.countries div img{
+    max-width: 100%;
+}
+input[type=text], textarea{
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 2px solid #A6E1FA;
+    color: #00072D;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    width: 50%;
+
+}
+table{
+    color: #fbfffe;
+    border-collapse: collapse;
+    width: 100%;
+}
+  th, td {
+    text-align: center;
+    padding: 8px;}
+  th{
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.3em;}
+  td{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;}
+  tr:nth-child(even) {background-color: #0A2472;}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Big Cities Around the Globe</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">    
+    </head>
+    <body>
+      <h1 id="header">Big Cities Around the Globe</h1>
+      <section class = "countries">
+        <div class="usa">
+            <h2>USA</h2>
+            <img src="usa.png" alt="usa flag and the statue of liberty">
+            <button type="button" id="usaBtn" onclick="loadUsaData()">List Cities</button>
+        </div>
+        <div class="mexico">
+            <h2>Mexico</h2>
+            <img src="mexico.jpg" alt="mexican skulls">
+            <button type="button" id="mexicoBtn" onclick="loadMexicoData()">List Cities</button>
+        </div>
+        <div class="canada">
+            <h2>Canada</h2>
+            <img src="canada.jpg" alt="Canadian police">
+            <button type="button" id="canadaBtn" onclick="loadCanadaData()">List Cities</button>
+        </div>
+        <div class="russia">
+            <h2>Russia</h2>
+            <img src="russia.jpg" alt="Russian buildings">
+            <button type="button" id="russiaBtn" onclick="loadRussiaData()">List Cities</button>
+        </div>
+        <div class="cityData">
+            <table id="cityData"></table>
+        </div>
+      </section>
+      <section>
+          <h2>JSON Reader</h2>
+          <input type="text" id="input" value="json.txt">
+          <button type="button" id="readBtn" onclick="readJSON()">READ JSON</button>
+          <p id="inputAlert"></p>
+          <div id="jsonData"></div>
+      </section>
+
+    </body>
+</html>
